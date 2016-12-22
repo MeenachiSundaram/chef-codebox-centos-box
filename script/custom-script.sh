@@ -36,4 +36,4 @@ chmod +x /usr/bin/docker-compose
 
 echo "Extracting chef-codebox.tar.gz"
 mkdir /home/devops
-tar -xzf /tmp/chef-codebox.tar.gz /home/devops/
+tar -xzf /tmp/chef-codebox.tar.gz -C /home/devops/
